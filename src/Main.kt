@@ -5,7 +5,7 @@ fun main() {
            |1. 소수 구하기
            |2. 랜덤뽑기
        """.trimMargin())
-    
+
     when (readLine()!!.toInt()) {
         1 -> PrimeNum().main()
         2 -> RandomChooser().main()
